@@ -1,0 +1,13 @@
+{
+  "name": "summit-roadmapper",
+  "version": "1.0.0",
+  "description": "Reverse-engineered career roadmaps: type a dream job, get an interactive trail map.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "AI_PROVIDER=mock node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning scripts/test.js"
+  }
+}
